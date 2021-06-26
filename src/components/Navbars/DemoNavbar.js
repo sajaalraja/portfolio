@@ -66,7 +66,7 @@ class DemoNavbar extends React.Component {
 
   render() {
     return (
-      <>
+      
         <header className="header-global">
           <Navbar
             className="navbar-main navbar-transparent navbar-light headroom"
@@ -114,7 +114,7 @@ class DemoNavbar extends React.Component {
                       <i className="ni ni-ui-04 d-lg-none mr-1" />
                       <span className="nav-link-inner--text">Components</span>
                     </DropdownToggle>
-                    <DropdownMenu className="dropdown-menu-xl">
+                    {/* <DropdownMenu className="dropdown-menu-xl">
                       <div className="dropdown-menu-inner">
                         <Media
                           className="d-flex align-items-center"
@@ -136,8 +136,8 @@ class DemoNavbar extends React.Component {
                         </Media>
                         <Media
                           className="d-flex align-items-center"
-                          href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/colors?ref=adsr-navbar"
-                          target="_blank"
+                          href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/colors?ref=adsr-navbar" */}
+                          {/* target="_blank"
                         >
                           <div className="icon icon-shape bg-gradient-success rounded-circle text-white">
                             <i className="ni ni-palette" />
@@ -159,8 +159,8 @@ class DemoNavbar extends React.Component {
                         >
                           <div className="icon icon-shape bg-gradient-warning rounded-circle text-white">
                             <i className="ni ni-ui-04" />
-                          </div>
-                          <Media body className="ml-3">
+                          </div>}
+                           <Media body className="ml-3">
                             <h5 className="heading text-warning mb-md-1">
                               Components
                             </h5>
@@ -171,7 +171,7 @@ class DemoNavbar extends React.Component {
                           </Media>
                         </Media>
                       </div>
-                    </DropdownMenu>
+                    </DropdownMenu> */}
                   </UncontrolledDropdown>
                   <UncontrolledDropdown nav>
                     <DropdownToggle nav>
@@ -179,7 +179,7 @@ class DemoNavbar extends React.Component {
                       <span className="nav-link-inner--text">Examples</span>
                     </DropdownToggle>
                     <DropdownMenu>
-                      <DropdownItem to="/landing-page" tag={Link}>
+                      {/* <DropdownItem to="/landing-page" tag={Link}>
                         Landing
                       </DropdownItem>
                       <DropdownItem to="/profile-page" tag={Link}>
@@ -190,7 +190,7 @@ class DemoNavbar extends React.Component {
                       </DropdownItem>
                       <DropdownItem to="/register-page" tag={Link}>
                         Register
-                      </DropdownItem>
+                      </DropdownItem> */}
                     </DropdownMenu>
                   </UncontrolledDropdown>
                 </Nav>
@@ -207,11 +207,11 @@ class DemoNavbar extends React.Component {
                         Facebook
                       </span>
                     </NavLink>
-                    <UncontrolledTooltip delay={0} target="tooltip333589074">
+                    {/* {/* <UncontrolledTooltip delay={0} target="tooltip333589074">
                       Like us on Facebook
                     </UncontrolledTooltip>
-                  </NavItem>
-                  <NavItem>
+                  </NavItem> */
+                  /* <NavItem>
                     <NavLink
                       className="nav-link-icon"
                       href="https://www.instagram.com/creativetimofficial"
@@ -226,10 +226,10 @@ class DemoNavbar extends React.Component {
                     <UncontrolledTooltip delay={0} target="tooltip356693867">
                       Follow us on Instagram
                     </UncontrolledTooltip>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink
-                      className="nav-link-icon"
+                  </NavItem> */
+                  {/* <NavItem>
+                    <NavLink }
+                      { className="nav-link-icon"
                       href="https://twitter.com/creativetim"
                       id="tooltip184698705"
                       target="_blank"
@@ -242,7 +242,7 @@ class DemoNavbar extends React.Component {
                     <UncontrolledTooltip delay={0} target="tooltip184698705">
                       Follow us on Twitter
                     </UncontrolledTooltip>
-                  </NavItem>
+                  </NavItem> */ }
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
@@ -259,7 +259,7 @@ class DemoNavbar extends React.Component {
                       Star us on Github
                     </UncontrolledTooltip>
                   </NavItem>
-                  <NavItem className="d-none d-lg-block ml-lg-4">
+                  {/* <NavItem className="d-none d-lg-block ml-lg-4">
                     <Button
                       className="btn-neutral btn-icon"
                       color="default"
@@ -273,7 +273,7 @@ class DemoNavbar extends React.Component {
                         Download
                       </span>
                     </Button>
-                  </NavItem>
+                  </NavItem> */}
                 </Nav>
               </UncontrolledCollapse>
             </Container>
